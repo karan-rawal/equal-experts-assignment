@@ -1,0 +1,20 @@
+.header-container {
+    display: flex;
+    height: 100px;
+    background-color: blanchedalmond;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.section {
+    flex: 0.3;
+}
+
+.section.logo {
+    flex: 0.1;
+}
+
+.section.categories {
+    display: flex;
+    justify-content: space-evenly;
+}
